@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import TodoInput from './TodoInput';
+import TodoList from './TodoList';
 
 function App() {
+  const todos = [
+    {
+      text: 'マクセル方程式',
+      isFinished: true
+    },
+    {
+      text: '塾',
+      isFinished: true
+    },
+    {
+      text: '確定申告',
+      isFinished: true
+    }
+  ]
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='Todo-name'>Todo app</div>
+      <div className='Todo-box'>
+        <TodoInput />
+        <TodoList todos={todos}/>
+      </div>
     </div>
   );
 }
