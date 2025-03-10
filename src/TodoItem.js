@@ -1,4 +1,4 @@
-const TodoItem = () => {
+const TodoItem = (props) => {
     return(
         <div>
             <input type="checkbox" checked={false} ></input>
