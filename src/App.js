@@ -33,7 +33,6 @@ function App() {
     setTodos((prevTodos) => [...prevTodos, shinTodo]);
   };
 
-  // onToggle: 指定の todo の isFinished を反転
   const eventCheck = (id) => {
     setTodos(prevTodos =>
       prevTodos.map(todo =>
@@ -42,7 +41,6 @@ function App() {
     );
   };
 
-  // onDelete: 指定の todo を削除
   const eventDelete = (id) => {
     setTodos(prevTodos => prevTodos.filter(todo => todo.id !== id));
   };
