@@ -1,4 +1,6 @@
+/* ページ全体の余白をなくしています。 */
 body {
   margin: 0;
+  /* 背景色を設定しています。 */
   background-color: #b6b9d8;
 }

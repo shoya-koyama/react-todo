@@ -1,22 +1,25 @@
+/* アプリ全体のスタイルを設定しています。 */
 .App {
-  width: 512px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 32px;
-  border-radius: 5px;
-  overflow: hidden;
+  width: 512px; /* アプリの幅を設定しています。 */
+  margin-left: auto; /* 左右中央揃えにしています。 */
+  margin-right: auto; /* 左右中央揃えにしています。 */
+  margin-top: 32px; /* 上部に余白を追加しています。 */
+  border-radius: 5px; /* 角を丸くしています。 */
+  overflow: hidden; /* 内容がはみ出さないようにしています。 */
 }
 
+/* アプリのタイトル部分のスタイルを設定しています。 */
 .Todo-name {
-  background-color: #34974a;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  color: white;
-  height: 50px;
+  background-color: #34974a; /* 背景色を緑にしています。 */
+  display: flex; /* フレックスボックスを使用しています。 */
+  align-items: center; /* 垂直方向に中央揃えにしています。 */
+  justify-content: center; /* 水平方向に中央揃えにしています。 */
+  font-size: 24px; /* フォントサイズを設定しています。 */
+  color: white; /* 文字色を白にしています。 */
+  height: 50px; /* 高さを設定しています。 */
 }
 
+/* タスク入力欄とタスク一覧のボックスのスタイルを設定しています。 */
 .Todo-box {
-  background-color: white;
+  background-color: white; /* 背景色を白にしています。 */
 }
